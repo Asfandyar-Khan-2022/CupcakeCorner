@@ -11,6 +11,7 @@
 		63A3E7132AC5BFD500CC98FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3E7122AC5BFD500CC98FB /* ContentView.swift */; };
 		63A3E7152AC5BFD800CC98FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A3E7142AC5BFD800CC98FB /* Assets.xcassets */; };
 		63A3E7182AC5BFD800CC98FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A3E7172AC5BFD800CC98FB /* Preview Assets.xcassets */; };
+		63A3E71F2AC5DF8400CC98FB /* WaveOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3E71E2AC5DF8400CC98FB /* WaveOnly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		63A3E7122AC5BFD500CC98FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63A3E7142AC5BFD800CC98FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A3E7172AC5BFD800CC98FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63A3E71E2AC5DF8400CC98FB /* WaveOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveOnly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				63A3E7102AC5BFD500CC98FB /* CupcakeCornerApp.swift */,
 				63A3E7122AC5BFD500CC98FB /* ContentView.swift */,
+				63A3E71E2AC5DF8400CC98FB /* WaveOnly.swift */,
 				63A3E7142AC5BFD800CC98FB /* Assets.xcassets */,
 				63A3E7162AC5BFD800CC98FB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A3E71F2AC5DF8400CC98FB /* WaveOnly.swift in Sources */,
 				63A3E7132AC5BFD500CC98FB /* ContentView.swift in Sources */,
 				63A3E7112AC5BFD500CC98FB /* CupcakeCornerApp.swift in Sources */,
 			);
