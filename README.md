@@ -3,7 +3,7 @@ The app allows the user to select the number of cupcakes they would like
 and place an order for them. The user can select the quantity of items 
 they would like to purchase and also customize their order. Once the
 user is satisfied. They move onto the next screen. Where they enter
-their delivery details. After which the user can confirm their order.
+their delivery details. After which the user can confirms their order.
 
 ## Code structure
 - The app has three files for the view and a order file with an order class
