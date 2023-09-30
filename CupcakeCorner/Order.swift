@@ -37,8 +37,9 @@ class Order: ObservableObject, Codable {
     var hasValidAddress: Bool {
         if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
             return false
+        } else if whiteSpace(string: name) || whiteSpace(string: streetAddress) || whiteSpace(string: city) || whiteSpace(string: zip) {
+            return false
         }
-        
         return true
     }
     
@@ -73,6 +74,21 @@ class Order: ObservableObject, Codable {
         try container.encode(streetAddress, forKey: .streetAddress)
         try container.encode(city, forKey: .city)
         try container.encode(zip, forKey: .zip)
+    }
+    
+    func whiteSpace(string: String) -> Bool {
+        var count = 0
+        
+        for char in string {
+            if char == " " {
+                count += 1
+            }
+        }
+        if count == string.count {
+            return true
+        }
+        
+        return false
     }
     
     required init(from decoder: Decoder) throws {
